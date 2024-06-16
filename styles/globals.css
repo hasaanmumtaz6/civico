@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --main-bg-color: #cccccc;
+  --heading-h1-color: #333333;
+  --heading-h2-3-4-color: #595959;
+  --heading-h5-color: #7f7f7f;
+  --heading-h6-color: #b3b3b3;
+  --paragraph-color: #7f7f7f;
+  --button-bg-color: #595959;
+  --button-text-color: #cccccc;
+}

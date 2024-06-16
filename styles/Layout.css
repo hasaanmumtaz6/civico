@@ -1,0 +1,16 @@
+.header {
+  @apply bg-[var(--main-bg-color)] px-20 py-2 flex items-center justify-between;
+}
+.header img {
+  @apply w-[50px] h-[50px];
+}
+.header ul {
+  @apply flex items-center justify-center gap-4;
+}
+
+.custom-btn {
+  @apply bg-[var(--button-bg-color)] text-[var(--button-text-color)] border-2 border-[var(--button-bg-color)] px-6 py-2 rounded-sm;
+}
+.custom-btn:hover {
+  @apply text-[var(--button-bg-color)] bg-[transparent] border-2 border-[var(--button-bg-color)] font-bold;
+}
